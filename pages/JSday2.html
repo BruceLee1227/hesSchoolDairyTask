@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSday2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mb-16">
+        <h2 class="h2-text">問題一</h2>
+        <p class="p-text">
+          以下變數 a, b, c, d, e, f 它們的值、型別各自為何? (請先想想看，不要用
+          console.log 檢查)
+        </p>
+        <ul>
+          <li>
+            let a = "10" + "10"; <span class="red">值:1010 型別:string</span>
+          </li>
+          <li>
+            let b = "10" * "10"; <span class="red">值:100 型別:number</span>
+          </li>
+          <li>
+            let c = 10 + "10"; <span class="red">值:1010 型別:string</span>
+          </li>
+          <li>
+            let d = 10 * "10"; <span class="red">值:100 型別:number</span>
+          </li>
+          <li>let e = 10 - "2"; <span class="red">值:8 型別:number</span></li>
+          <li>let f = "10" - "2"; <span class="red">值:8 型別:number</span></li>
+        </ul>
+      </div>
+      <div class="mb-16">
+        <h2 class="h2-text">問題二</h2>
+        <p class="p-text">請問以下題項哪些是有問題的，並說明為什麼。</p>
+        <ul>
+          <li>
+            1. let myName = "jay";
+            <span class="red">— 合法，正常宣告變數。</span>
+          </li>
+          <li>
+            2. var _state = true;<span class="red">
+              — 合法，變數名稱可以下劃線開頭。</span
+            >
+          </li>
+          <li>
+            3. let true = true;<span class="red"
+              >— 有問題，true 為保留字/布林字面量，不能當變數名。</span
+            >
+          </li>
+          <li>
+            4. const 520Pretty = 520;<span class="red"
+              >— 有問題，識別字不能以數字開頭。</span
+            >
+          </li>
+          <li>
+            5. const appleNum = 10; appleNum = 2;<span class="red">
+              — 有問題，const 不能重新賦值。</span
+            >
+          </li>
+          <li>
+            6. var ming = '小明'; var ming = '小民';<span class="red">
+              — 合法，var 可重複宣告，最後值為 '小民'。</span
+            >
+          </li>
+          <li>
+            7. const ming = '小明'; const ming = '小民';<span class="red"
+              >— 有問題，重複宣告同名 const 會拋錯誤。</span
+            >
+          </li>
+          <li>
+            8. let ming = '小明'; let ming = '小民';<span class="red">
+              — 有問題，重複用 let 宣告同名會拋錯誤。</span
+            >
+          </li>
+          <li>
+            9. let ming = '小明'; ming = '小民';<span class="red">
+              — 合法，let 允許重新賦值，最後值為 '小民'。</span
+            >
+          </li>
+          <li>
+            10. let $open = "芝麻開門";<span class="red"
+              >— 合法，$ 為有效識別字字符。</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+    <script type="module" src="/assets/js/js02.js"></script>
+  </body>
+</html>

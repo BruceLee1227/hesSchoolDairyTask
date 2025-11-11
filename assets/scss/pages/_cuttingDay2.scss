@@ -1,0 +1,11 @@
+// 解法一是可以將 vertical-align 的設定修改為 top/bottom/text-top/text-bottom 改變與父元素的對齊基準。
+// 解法二的用意是將 img 改為區塊元素，讓圖片不會因為行內（inline）元素的特性而受到影響。
+// .box 是指 img 的父元素，解法三的方式是讓文字大小為 0px，進而讓因為文字而有的間距不見。
+// 解法1
+// img{
+//   vertical-align: bottom;
+// }
+// 解法2
+img {
+  display: block;
+}
