@@ -1,0 +1,1 @@
+import"./main-9wU8mTW8.js";console.log("Hello js02");let o="1010";console.log(o,"string");let l="10"*"10";console.log(l,"number");let e="1010";console.log(e,"string");let n=10*"10";console.log(n,"number");let s=10-"2";console.log(s,"number");let g="10"-"2";console.log(g,"number");
