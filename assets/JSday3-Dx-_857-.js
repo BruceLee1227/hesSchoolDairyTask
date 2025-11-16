@@ -1,1 +1,0 @@
-import"./main-CFge4X6l.js";console.log("hello from js03.js");let l=!0+!0;console.log(l,"number");let o=!1+123;console.log(o,"number");let e=null+123;console.log(e,"number");let n="null123";console.log(n,"string");
