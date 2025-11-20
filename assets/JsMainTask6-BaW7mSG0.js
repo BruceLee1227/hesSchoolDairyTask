@@ -1,4 +1,4 @@
-import"./main-CyC-Ec_t.js";let r=[];const o="https://raw.githubusercontent.com/hexschool/js-training/main/travelApi.json",l=document.querySelector(".ticketCard-area"),s=document.querySelector("#searchResult-text");function n(e){let t="";e.forEach(function(c){t+=` <li class="ticketCard">
+import"./main-ciEVoxAm.js";let r=[];const o="https://raw.githubusercontent.com/hexschool/js-training/main/travelApi.json",l=document.querySelector(".ticketCard-area"),s=document.querySelector("#searchResult-text");function n(e){let t="";e.forEach(function(c){t+=` <li class="ticketCard">
     <div class="ticketCard-img">
       <a href="#">
         <img src="${c.imgUrl}" alt="">
