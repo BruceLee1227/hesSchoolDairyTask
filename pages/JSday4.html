@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>賦值運算子與傳參考概念</title>
+  </head>
+  <body>
+    <h2>問題一</h2>
+    <p>了解賦值運算子，並計算出最後 console.log 印出的結果</p>
+
+    let a = 1;<br />
+    let b = 2;<br />
+    a += 30; <br />a--; <br />b - 1;<br />
+    a -= b;<br />
+    console.log(a); console.log(b);
+    <hr />
+    <h2>問題二</h2>
+    <p>請回答以下程式碼最後的 console.log 結果</p>
+    let groupA = { people: 10, age: 20 };<br />
+    let groupB = groupA; <br />groupB.people = 3; <br />console.log(groupA); <%-
+    include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+    <script type="module" src="/assets/js/js04.js"></script>
+  </body>
+</html>

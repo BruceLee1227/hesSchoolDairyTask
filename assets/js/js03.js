@@ -5,5 +5,5 @@ let b = false + 123;
 console.log(b, typeof b);
 let c = null + 123;
 console.log(c, typeof c);
-let d = null + '123';
+let d = null + "123";
 console.log(d, typeof d);
